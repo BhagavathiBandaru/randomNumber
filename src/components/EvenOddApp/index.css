@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.display-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.count-Number {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.counter-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid;
+  padding: 10px;
+  width: 120px;
+  align-self: center;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: black;
+}
